@@ -18,6 +18,10 @@
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('sw.js');
       });
+      // When service workers are ready
+      navigator.serviceWorker.ready.then((serviceWorkerRegistration) => {
+        alert('App is ready for offline usage!')
+      });
     }
   </script>
 </body>
