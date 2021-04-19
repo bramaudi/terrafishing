@@ -28,8 +28,14 @@ const App = () => {
         <${Icon} />
         TerraFishing
       </header>
-      <div>Fishing power: <span class="power">${fishPower} %</span></div>
-      <div>Expect catch every: <span class="catch">${expectedCatch} seconds</span></div>
+      <div class="col">
+        <span>Fishing power:</span>
+        <span class="power">${fishPower} %</span>
+      </div>
+      <div class="col">
+        <span>Expect catch every:</span>
+        <span class="catch">${expectedCatch} seconds</span>
+      </div>
       <input
         type="number"
         placeholder=0
