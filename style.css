@@ -54,6 +54,23 @@ input:focus {
   border-color: coral;
 }
 
+footer {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  font-size: small;
+  border-top: 1px solid #ddd;
+}
+footer a {
+  color: #00457b;
+  display: inline-flex;
+  text-decoration: none;
+}
+footer img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .3rem;
+}
+
 @media screen and (max-width: 540px) {
   header {
     font-size: medium;
